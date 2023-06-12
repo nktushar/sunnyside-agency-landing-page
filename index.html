@@ -10,313 +10,399 @@
       rel="stylesheet"
     />
   </head>
-  <body class="xl:container xl:mx-auto">
-    <nav class="w-full fixed top-0 bg-transparent z-10 font-body">
-      <div
-        class="w-11/12 mx-auto py-4 flex justify-between items-center"
+  <body class="bg-sky-400">
+    <div class="xl:container xl:mx-auto">
+      <nav
+        class="xl:container w-full fixed top-0 bg-transparent z-10 font-body"
       >
-        <div>
-          <img src="./images/logo.svg" alt="" />
+        <div class="w-11/12 mx-auto py-4 flex justify-between items-center">
+          <div>
+            <img src="./images/logo.svg" alt="" />
+          </div>
+          <ul class="hidden sm:block">
+            <li class="inline-block">
+              <a
+                class="text-white px-6 py-3 rounded-full hover:bg-white hover:bg-opacity-30 hover:font-heading hover:text-sm active:bg-white active:text-black transition-all duration-300 ease-in-out"
+                href=""
+                >About</a
+              >
+            </li>
+            <li class="inline-block">
+              <a
+                class="text-white px-6 py-3 rounded-full hover:bg-white hover:bg-opacity-30 hover:font-heading hover:text-sm active:bg-white active:text-black transition-all duration-300 ease-in-out"
+                href=""
+                >Services</a
+              >
+            </li>
+            <li class="inline-block">
+              <a
+                class="text-white px-6 py-3 rounded-full hover:bg-white hover:bg-opacity-30 hover:font-heading hover:text-sm active:bg-white active:text-black transition-all duration-300 ease-in-out"
+                href=""
+                >Projects</a
+              >
+            </li>
+            <li class="inline-block">
+              <a
+                class="text-white px-6 py-3 rounded-full hover:bg-white hover:bg-opacity-30 hover:font-heading hover:text-sm active:bg-white active:text-black transition-all duration-300 ease-in-out"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div class="inline-block sm:hidden">
+            <img
+              id="hamburger"
+              class="w-5 mx-1 cursor-pointer"
+              src="./images/icon-hamburger.svg"
+              alt=""
+            />
+          </div>
         </div>
-        <ul class="hidden sm:block">
-          <li class="inline-block"><a class=" text-white px-6 py-3 rounded-full hover:bg-white hover:bg-opacity-30 hover:font-heading hover:text-sm active:bg-white active:text-black transition-all duration-300 ease-in-out" href="">About</a></li>
-          <li class="inline-block"><a class=" text-white px-6 py-3 rounded-full hover:bg-white hover:bg-opacity-30 hover:font-heading hover:text-sm active:bg-white active:text-black transition-all duration-300 ease-in-out" href="">Services</a></li>
-          <li class="inline-block"><a class="text-white px-6 py-3 rounded-full hover:bg-white hover:bg-opacity-30 hover:font-heading hover:text-sm active:bg-white active:text-black transition-all duration-300 ease-in-out" href="">Projects</a></li>
-          <li class="inline-block"><a class="text-white px-6 py-3 rounded-full hover:bg-white hover:bg-opacity-30 hover:font-heading hover:text-sm active:bg-white active:text-black transition-all duration-300 ease-in-out">Contact</a></li>
-        </ul>
-        <div class="inline-block sm:hidden">
-          <img
-            id="hamburger"
-            class="w-5 mx-1 cursor-pointer"
-            src="./images/icon-hamburger.svg"
-            alt=""
-          />
-        </div>
-      </div>
-
-      <!-- menu -->
-      <div
-        id="menu"
-        class="hidden sm:hidden text-center py-6 shadow-lg shadow-lightgray bg-white w-10/12 mx-auto"
-      >
-        <ul>
-          <li class="my-6" ><a class="mx-20  font-semibold text-lg text-gray-500 px-6 py-3 rounded-full hover:bg-yellow hover:font-heading hover:text-black" href="">About</a></li>
-          <li class="my-6" ><a class="mx-20 font-semibold text-lg text-gray-500 px-6 py-3 rounded-full hover:bg-yellow hover:font-heading hover:text-black" href="">Service</a></li>
-          <li class="my-6" ><a class="mx-20 font-semibold text-lg text-gray-500 px-6 py-3 rounded-full hover:bg-yellow hover:font-heading hover:text-black" href="">project</a></li>
-          <li class="my-6"><a class="mx-20 font-semibold text-lg text-gray-500 px-6 py-3 rounded-full hover:bg-yellow hover:font-heading hover:text-black" href="">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- hero -->
-    <div class="font-heading">
-      <div class="relative">
-        <picture class="">
-          <source
-            media="(min-width: 638px)"
-            srcset="./images/desktop/image-header.jpg"
-          />
-          <img src="./images/mobile/image-header.jpg" alt="" />
-        </picture>
+        <!-- menu -->
         <div
-          class="absolute top-1/4 left-1/2 -translate-x-1/2 text-center text-white"
+          id="menu"
+          class="hidden sm:hidden text-center py-6 shadow-lg shadow-lightgray bg-white w-10/12 mx-auto"
         >
-          <h1
-            class="font-bold tracking-widest text-3xl lg:text-5xl mb-10 lg:mb-20"
+          <ul>
+            <li class="my-6">
+              <a
+                class="mx-20 font-semibold text-lg text-gray-500 px-6 py-3 rounded-full hover:bg-yellow hover:font-heading hover:text-black"
+                href=""
+                >About</a
+              >
+            </li>
+            <li class="my-6">
+              <a
+                class="mx-20 font-semibold text-lg text-gray-500 px-6 py-3 rounded-full hover:bg-yellow hover:font-heading hover:text-black"
+                href=""
+                >Service</a
+              >
+            </li>
+            <li class="my-6">
+              <a
+                class="mx-20 font-semibold text-lg text-gray-500 px-6 py-3 rounded-full hover:bg-yellow hover:font-heading hover:text-black"
+                href=""
+                >project</a
+              >
+            </li>
+            <li class="my-6">
+              <a
+                class="mx-20 font-semibold text-lg text-gray-500 px-6 py-3 rounded-full hover:bg-yellow hover:font-heading hover:text-black"
+                href=""
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- hero -->
+      <div class="font-heading">
+        <div class="relative">
+          <picture class="">
+            <source
+              media="(min-width: 638px)"
+              srcset="./images/desktop/image-header.jpg"
+            />
+            <img src="./images/mobile/image-header.jpg" alt="" />
+          </picture>
+          <div
+            class="absolute top-1/4 left-1/2 -translate-x-1/2 text-center text-white"
           >
-            WE ARE CREATIVES
-          </h1>
-          <img class="mx-auto" src="./images/icon-arrow-down.svg" alt="" />
+            <h1
+              class="font-bold tracking-widest text-3xl lg:text-5xl mb-10 lg:mb-20"
+            >
+              WE ARE CREATIVES
+            </h1>
+            <img class="mx-auto" src="./images/icon-arrow-down.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- transform -->
+      <div class="bg-sky-500">
+        <!-- 1st -->
+        <div class="xl:container xl:mx-auto ">
+          <div class="sm:flex sm:flex-row-reverse">
+            <div class="sm:w-1/2">
+              <picture class="h-auto w-full">
+                <source
+                  media="(min-width: 638px)"
+                  srcset="./images/desktop/image-transform.jpg"
+                />
+                <img
+                  class="w-full"
+                  src="./images/mobile/image-transform.jpg"
+                  alt=""
+                />
+              </picture>
+            </div>
+            <div class="sm:w-1/2 flex bg-white">
+              <div
+                class="flex flex-col justify-center items-center sm:items-start mx-10 lg:mx-24"
+              >
+                <h2
+                  class="font-heading text-center sm:text-left text-3xl sm:text-2xl md:text-3xl lg:text-4xl font-bold my-10 sm:my-2 md:my-5"
+                >
+                  Transform your brand
+                </h2>
+                <p
+                  class="font-body text-center font-semibold text-gray-400 sm:text-sm sm:text-left md:text-base"
+                >
+                  We are a full-service creative agency specializing in helping
+                  brands grow fast. Engage your clients through compelling visuals
+                  that do most of the marketing for you.
+                </p>
+                <div class="my-5 sm:my-3 md:my-5 relative">
+                  <a class="group" href="">
+                    <h3
+                      class="w-32 mx-auto font-heading text-center sm:text-sm md:text-base relative z-10"
+                    >
+                      LEARN MORE
+                    </h3>
+                    <div
+                      class="w-32 mx-auto h-2 bg-yellow bg-opacity-30 rounded-full absolute left-1/2 -translate-x-1/2 bottom-0.5 group-hover:bg-yellow group-hover:bg-opacity-100 transition-all duration-500 ease-in-out"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd -->
+          <div class="sm:flex">
+            <div class="sm:w-1/2">
+              <picture class="h-auto w-full">
+                <source
+                  media="(min-width: 638px)"
+                  srcset="./images/desktop/image-stand-out.jpg"
+                />
+                <img
+                  class="w-full"
+                  src="./images/mobile/image-stand-out.jpg"
+                  alt=""
+                />
+              </picture>
+            </div>
+            <div class="sm:w-1/2 flex bg-white">
+              <div
+                class="flex flex-col justify-center items-center sm:items-start mx-10 lg:mx-24"
+              >
+                <h2
+                  class="font-heading text-center sm:text-left text-3xl sm:text-2xl md:text-3xl lg:text-4xl font-bold my-10 sm:my-2 md:my-5"
+                >
+                  Stand out to the right audience
+                </h2>
+                <p
+                  class="font-body text-center font-semibold text-gray-400 sm:text-sm sm:text-left md:text-base"
+                >
+                  Using a collaborative formula of designers, researchers,
+                  photographers, videographers, and copywriters, we’ll build and
+                  extend your brand in digital places.
+                </p>
+                <div class="my-5 sm:my-3 md:my-5 relative">
+                  <a class="group" href="">
+                    <h3
+                      class="w-32 mx-auto font-heading text-center sm:text-sm md:text-base relative z-10"
+                    >
+                      LEARN MORE
+                    </h3>
+                    <div
+                      class="w-32 mx-auto h-2 bg-soft_red bg-opacity-30 rounded-full absolute left-1/2 -translate-x-1/2 bottom-0.5 group-hover:bg-soft_red group-hover:bg-opacity-100 transition-all duration-500 ease-in-out"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 3rd -->
+          <div class="sm:flex">
+            <div class="sm:w-1/2 relative">
+              <picture class="h-auto w-full">
+                <source
+                  media="(min-width: 638px)"
+                  srcset="./images/desktop/image-graphic-design.jpg"
+                />
+                <img
+                  class="w-full"
+                  src="./images/mobile/image-graphic-design.jpg"
+                  alt=""
+                />
+              </picture>
+              <div
+                class="absolute bottom-10 sm:bottom-4 left-1/2 -translate-x-1/2 w-full"
+              >
+                <h2
+                  class="text-center text-gray-700 font-heading text-3xl sm:text-xl md:text-2xl font-bold my-10 sm:my-1 md:my-5"
+                >
+                  Graphic Design
+                </h2>
+                <div
+                  class="text-center text-gray-600 font-body sm:text-sm lg:text-base font-semibold my-10 sm:my-1 md:my-5 mx-24 sm:mx-3 md:mx-10 lg:mx-28"
+                >
+                  Great design makes you memorable. We deliver artwork that
+                  underscores your brand message and captures potential clients’
+                  attention.
+                </div>
+              </div>
+            </div>
+            <div class="sm:w-1/2 relative">
+              <picture class="h-auto w-full">
+                <source
+                  media="(min-width: 638px)"
+                  srcset="./images/desktop/image-photography.jpg"
+                />
+                <img
+                  class="w-full"
+                  src="./images/mobile/image-photography.jpg"
+                  alt=""
+                />
+              </picture>
+              <div
+                class="absolute bottom-10 sm:bottom-4 left-1/2 -translate-x-1/2 w-full"
+              >
+                <h2
+                  class="text-center text-gray-700 font-heading text-3xl sm:text-xl md:text-2xl font-bold my-10 sm:my-1 md:my-5"
+                >
+                  Photography
+                </h2>
+                <div
+                  class="text-center text-gray-600 font-body sm:text-sm lg:text-base font-semibold my-10 sm:my-1 md:my-5 mx-24 sm:mx-3 md:mx-10 lg:mx-28"
+                >
+                  Increase your credibility by getting the most stunning, awesome,
+                  high-quality photos that improve your business image.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial -->
+          <div class="px-24 mx-auto py-16 bg-white">
+            <!-- top -->
+            <div class="flex items-center justify-center mt-16 my-10">
+              <h3
+                class="text-gray-500 text-2xl text-center font-heading tracking-widest font-bold"
+              >
+                CLIENT TESTIMONIALS
+              </h3>
+            </div>
+            <!-- bottom -->
+            <div class="flex flex-wrap justify-between mx-10 md:mx-auto">
+              <div
+                class="md:w-4/12 px-5 mx-auto text-center flex flex-col items-center justify-center"
+              >
+                <div class="w-16 rounded-full overflow-hidden my-10">
+                  <img src="./images/image-emily.jpg" alt="" />
+                </div>
+                <p class="font-body text-gray-600 text-sm font-semibold">
+                  We put our trust in Sunnyside and they delivered, making sure
+                  our needs were met and deadlines were always hit.
+                </p>
+                <div class="my-10">
+                  <h5 class="font-heading">Emily R.</h5>
+                  <p class="font-body text-gray-500 text-sm">
+                    Marketing Director
+                  </p>
+                </div>
+              </div>
+              <div
+                class="md:w-4/12 px-5 mx-auto text-center flex flex-col items-center justify-center"
+              >
+                <div class="w-16 rounded-full overflow-hidden my-10">
+                  <img src="./images/image-thomas.jpg" alt="" />
+                </div>
+                <p class="font-body text-gray-600 text-sm font-semibold">
+                  Sunnyside’s enthusiasm coupled with their keen interest in our
+                  brand’s success made it a satisfying and enjoyable experience.
+                </p>
+                <div class="my-10">
+                  <h5 class="font-heading">Thomas S.</h5>
+                  <p class="font-body text-gray-500 text-sm">
+                    Chief Operating Officer
+                  </p>
+                </div>
+              </div>
+              <div
+                class="md:w-4/12 px-5 mx-auto text-center flex flex-col items-center justify-center"
+              >
+                <div class="w-16 rounded-full overflow-hidden my-10">
+                  <img src="./images/image-jennie.jpg" alt="" />
+                </div>
+                <p class="font-body text-gray-600 text-sm font-semibold">
+                  Incredible end result! Our sales increased over 400% when we
+                  worked with Sunnyside. Highly recommended.
+                </p>
+                <div class="my-10">
+                  <h5 class="font-heading">Jennie F.</h5>
+                  <p class="font-body text-gray-500 text-sm">Business Owner</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- Gallery -->
+        <div class="sm:flex">
+          <div class="flex">
+            <picture>
+              <source
+                media="(min-width: 638px)"
+                srcset="./images/desktop/image-gallery-milkbottles.jpg"
+              />
+              <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="" />
+            </picture>
+            <picture>
+              <source
+                media="(min-width: 638px)"
+                srcset="./images/desktop/image-gallery-orange.jpg"
+              />
+              <img src="./images/mobile/image-gallery-orange.jpg" alt="" />
+            </picture>
+          </div>
+          <div class="flex">
+            <picture>
+              <source
+                media="(min-width: 638px)"
+                srcset="./images/desktop/image-gallery-cone.jpg"
+              />
+              <img src="./images/mobile/image-gallery-cone.jpg" alt="" />
+            </picture>
+            <picture>
+              <source
+                media="(min-width: 638px)"
+                srcset="./images/desktop/image-gallery-sugarcubes.jpg"
+              />
+              <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="" />
+            </picture>
+          </div>
         </div>
       </div>
     </div>
-
-
-
-    <!-- transform -->
-    <div class="">
-      <!-- 1st -->
-      <div class="sm:flex sm:flex-row-reverse">
-        <div class="sm:w-1/2">
-          <picture class="h-auto w-full">
-            <source
-              media="(min-width: 638px)"
-              srcset="./images/desktop/image-transform.jpg"
-            />
-            <img class="w-full" src="./images/mobile/image-transform.jpg" alt="" />
-          </picture>
         </div>
-        <div class="sm:w-1/2 flex bg-white">
-          <div
-            class="flex flex-col justify-center items-center sm:items-start mx-10 lg:mx-24"
-          >
-            <h2
-              class="font-heading text-center sm:text-left text-3xl sm:text-2xl md:text-3xl lg:text-4xl font-bold my-10 sm:my-2 md:my-5"
-            >
-              Transform your brand
-            </h2>
-            <p
-              class="font-body text-center font-semibold text-gray-400 sm:text-sm sm:text-left md:text-base"
-            >
-              We are a full-service creative agency specializing in helping
-              brands grow fast. Engage your clients through compelling visuals
-              that do most of the marketing for you.
-            </p>
-            <div class="my-5 sm:my-3 md:my-5 relative">
-              <a class="group" href="">
-                  <h3
-                    class="w-32 mx-auto font-heading text-center sm:text-sm md:text-base relative z-10"
-                  >
-                    LEARN MORE
-                  </h3>
-                  <div
-                    class="w-32 mx-auto h-2 bg-yellow bg-opacity-30 rounded-full absolute left-1/2 -translate-x-1/2 bottom-0.5 group-hover:bg-yellow group-hover:bg-opacity-100 transition-all duration-500 ease-in-out"
-                  ></div>
-              </a>
-            </div>
-          </div>
+
+    <!-- Footer -->
+    <div class="bg-dark_moderate_cyan bg-opacity-60">
+      <div
+        class="xl:container xl:mx-auto flex flex-col justify-center items-center gap-7 py-20"
+      >
+        <svg
+          class="fill-dark_desaturated_cyan"
+          width="124"
+          height="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.857 18.708c1.638 0 2.995-.36 4.07-1.08 1.075-.721 1.613-1.769 1.613-3.144-.083-1.855-1.464-3.246-4.144-4.173l-1.44-.597c-.314-.1-.538-.198-.67-.298a.45.45 0 01-.198-.373c0-.414.273-.62.819-.62.678 0 1.182.347 1.513 1.043l3.698-1.044c-.893-2.22-2.614-3.329-5.162-3.329-1.522 0-2.788.398-3.797 1.193C1.15 7.08.645 8.116.645 9.39c0 .398.058.766.174 1.106.116.34.29.638.521.894.232.257.455.48.67.671.215.19.488.369.82.534.33.166.582.286.756.36.174.075.41.162.707.261l.422.15 1.49.546c.363.133.6.244.707.335a.449.449 0 01.16.36c0 .431-.404.647-1.215.647-1.191 0-1.903-.53-2.134-1.59L0 14.509c.463 2.8 2.416 4.2 5.857 4.2zm11.636 0c1.638 0 2.845-.63 3.623-1.888v1.615h5.112V5.366h-5.112v7.156c0 1.474-.505 2.21-1.514 2.21-1.026 0-1.539-.736-1.539-2.21V5.366h-5.112v7.653c0 3.793 1.514 5.69 4.542 5.69zm16.103-.273V11.28c0-1.475.504-2.212 1.513-2.212 1.026 0 1.54.737 1.54 2.212v7.155h5.111v-7.652c0-3.793-1.513-5.69-4.541-5.69-1.638 0-2.846.63-3.623 1.888V5.366h-5.113v13.069h5.113zm15.383 0V11.28c0-1.475.504-2.212 1.514-2.212 1.025 0 1.538.737 1.538 2.212v7.155h5.113v-7.652c0-3.793-1.514-5.69-4.542-5.69-1.638 0-2.846.63-3.623 1.888V5.366h-5.113v13.069h5.113zM64.958 24l8.289-18.634H67.91l-2.532 6.684-2.258-6.684h-5.584l5.435 11.802L59.944 24h5.014zm13.67-5.292c1.638 0 2.995-.36 4.07-1.08 1.076-.721 1.614-1.769 1.614-3.144-.083-1.855-1.465-3.246-4.145-4.173l-1.44-.597c-.314-.1-.537-.198-.67-.298a.45.45 0 01-.198-.373c0-.414.273-.62.819-.62.678 0 1.183.347 1.514 1.043l3.698-1.044c-.894-2.22-2.614-3.329-5.162-3.329-1.522 0-2.788.398-3.797 1.193-1.01.795-1.514 1.83-1.514 3.105 0 .398.058.766.173 1.106.116.34.29.638.522.894.231.257.455.48.67.671.215.19.488.369.819.534.33.166.583.286.757.36.173.075.41.162.707.261l.422.15 1.489.546c.364.133.6.244.707.335a.449.449 0 01.161.36c0 .431-.405.647-1.216.647-1.19 0-1.902-.53-2.134-1.59l-3.723.844c.464 2.8 2.416 4.2 5.857 4.2zm9.8-14.137c.91 0 1.613-.215 2.11-.646.495-.43.744-.977.744-1.64 0-.678-.24-1.23-.72-1.651C90.082.21 89.371 0 88.428 0c-.943 0-1.655.211-2.135.634-.48.422-.72.973-.72 1.652 0 .662.249 1.209.745 1.64.497.43 1.2.645 2.11.645zm2.556 13.864V5.366H85.87v13.069h5.113zm7.74.273c1.737 0 2.977-.63 3.722-1.888v1.615h5.112V.472h-5.112v6.534c-.745-1.275-1.985-1.913-3.723-1.913-1.753 0-3.214.642-4.38 1.926-1.166 1.283-1.75 2.91-1.75 4.882 0 1.97.584 3.598 1.75 4.882 1.166 1.283 2.627 1.925 4.38 1.925zm1.39-3.9c-.729 0-1.312-.274-1.75-.82-.439-.547-.658-1.243-.658-2.087 0-.845.215-1.54.645-2.087.447-.547 1.034-.82 1.762-.82s1.311.273 1.75.82c.438.546.657 1.242.657 2.087 0 .844-.219 1.54-.657 2.087-.439.546-1.022.82-1.75.82zm16.698 3.9c2.597 0 4.624-.754 6.08-2.26l-2.11-2.833c-1.042.845-2.217 1.267-3.524 1.267-.992 0-1.799-.224-2.42-.67-.62-.448-.93-.879-.93-1.293h9.604c.083-.298.124-.687.124-1.167 0-2.054-.674-3.677-2.022-4.87-1.349-1.193-3.073-1.789-5.175-1.789-2.25 0-4.028.671-5.335 2.013-1.307 1.341-1.961 2.956-1.961 4.844 0 1.938.69 3.549 2.072 4.833 1.382 1.283 3.247 1.925 5.597 1.925zm2.208-8.149h-5.112c.033-.613.298-1.08.794-1.404.496-.323 1.084-.484 1.762-.484.678 0 1.266.165 1.762.497.497.331.761.795.794 1.391z"
+            fill-rule="nonzero"
+          />
+        </svg>
+        <div class="flex gap-10 text-dark_desaturated_cyan text-sm font-semibold">
+          <a class="hover:text-white" href=""><p>About</p></a>
+          <a class="hover:text-white" href=""><p>Services</p></a>
+          <a class="hover:text-white" href=""><p>Projects</p></a>
+        </div>
+        <div class="flex gap-5 mt-8">
+          <img src="./images/icon-facebook.svg" alt="" />
+          <img src="./images/icon-instagram.svg" alt="" />
+          <img src="./images/icon-twitter.svg" alt="" />
+          <img src="./images/icon-pinterest.svg" alt="" />
         </div>
       </div>
-
-      <!-- 2nd -->
-      <div class="sm:flex">
-        <div class="sm:w-1/2">
-          <picture class="h-auto w-full">
-            <source
-              media="(min-width: 638px)"
-              srcset="./images/desktop/image-stand-out.jpg"
-            />
-            <img class="w-full" src="./images/mobile/image-stand-out.jpg" alt="" />
-          </picture>
-        </div>
-        <div class="sm:w-1/2 flex bg-white">
-          <div
-            class="flex flex-col justify-center items-center sm:items-start mx-10 lg:mx-24"
-          >
-            <h2
-              class="font-heading text-center sm:text-left text-3xl sm:text-2xl md:text-3xl lg:text-4xl font-bold my-10 sm:my-2 md:my-5"
-            >
-              Stand out to the right audience
-            </h2>
-            <p
-              class="font-body text-center font-semibold text-gray-400 sm:text-sm sm:text-left md:text-base"
-            >
-              Using a collaborative formula of designers, researchers,
-              photographers, videographers, and copywriters, we’ll build and
-              extend your brand in digital places.
-            </p>
-            <div class="my-5 sm:my-3 md:my-5 relative">
-              <a class="group" href="">
-                  <h3
-                    class="w-32 mx-auto font-heading text-center sm:text-sm md:text-base relative z-10"
-                  >
-                    LEARN MORE
-                  </h3>
-                  <div
-                    class="w-32 mx-auto h-2 bg-soft_red bg-opacity-30 rounded-full absolute left-1/2 -translate-x-1/2 bottom-0.5 group-hover:bg-soft_red group-hover:bg-opacity-100 transition-all duration-500 ease-in-out"
-                  ></div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 3rd -->
-      <div class="sm:flex">
-        <div class="sm:w-1/2 relative">
-          <picture class="h-auto w-full">
-            <source
-              media="(min-width: 638px)"
-              srcset="./images/desktop/image-graphic-design.jpg"
-            />
-            <img class="w-full" src="./images/mobile/image-graphic-design.jpg" alt="" />
-          </picture>
-          <div
-            class="absolute bottom-10 sm:bottom-4 left-1/2 -translate-x-1/2 w-full"
-          >
-            <h2
-              class="text-center text-gray-700 font-heading text-3xl sm:text-xl md:text-2xl font-bold my-10 sm:my-1 md:my-5"
-            >
-              Graphic Design
-            </h2>
-            <div
-              class="text-center text-gray-600 font-body sm:text-sm lg:text-base font-semibold my-10 sm:my-1 md:my-5 mx-24 sm:mx-3 md:mx-10 lg:mx-28"
-            >
-              Great design makes you memorable. We deliver artwork that
-              underscores your brand message and captures potential clients’
-              attention.
-            </div>
-          </div>
-        </div>
-        <div class="sm:w-1/2 relative">
-          <picture class="h-auto w-full">
-            <source
-              media="(min-width: 638px)"
-              srcset="./images/desktop/image-photography.jpg"
-            />
-            <img class="w-full" src="./images/mobile/image-photography.jpg" alt="" />
-          </picture>
-          <div
-            class="absolute bottom-10 sm:bottom-4 left-1/2 -translate-x-1/2 w-full"
-          >
-            <h2
-              class="text-center text-gray-700 font-heading text-3xl sm:text-xl md:text-2xl font-bold my-10 sm:my-1 md:my-5"
-            >
-              Photography
-            </h2>
-            <div
-              class="text-center text-gray-600 font-body sm:text-sm lg:text-base font-semibold my-10 sm:my-1 md:my-5 mx-24 sm:mx-3 md:mx-10 lg:mx-28"
-            >
-              Increase your credibility by getting the most stunning, awesome,
-              high-quality photos that improve your business image.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Testimonial -->
-      <div class="container w-10/12 mx-auto py-16 first-line:bg-white">
-        <!-- top -->
-        <div class="flex items-center justify-center mt-16 my-10">
-          <h3
-            class="text-gray-500 text-2xl text-center font-heading tracking-widest font-bold"
-          >
-            CLIENT TESTIMONIALS
-          </h3>
-        </div>
-        <!-- bottom -->
-        <div class="flex flex-wrap justify-between mx-10 md:mx-auto">
-          <div
-            class="md:w-4/12 px-5 mx-auto text-center flex flex-col items-center justify-center"
-          >
-            <div class="w-16 rounded-full overflow-hidden my-10">
-              <img src="./images/image-emily.jpg" alt="" />
-            </div>
-            <p class="font-body text-gray-600 text-sm font-semibold">
-              We put our trust in Sunnyside and they delivered, making sure our
-              needs were met and deadlines were always hit.
-            </p>
-            <div class="my-10">
-              <h5 class="font-heading">Emily R.</h5>
-              <p class="font-body text-gray-500 text-sm">Marketing Director</p>
-            </div>
-          </div>
-          <div
-            class="md:w-4/12 px-5 mx-auto text-center flex flex-col items-center justify-center"
-          >
-            <div class="w-16 rounded-full overflow-hidden my-10">
-              <img src="./images/image-thomas.jpg" alt="" />
-            </div>
-            <p class="font-body text-gray-600 text-sm font-semibold">
-              Sunnyside’s enthusiasm coupled with their keen interest in our
-              brand’s success made it a satisfying and enjoyable experience.
-            </p>
-            <div class="my-10">
-              <h5 class="font-heading">Thomas S.</h5>
-              <p class="font-body text-gray-500 text-sm">
-                Chief Operating Officer
-              </p>
-            </div>
-          </div>
-          <div
-            class="md:w-4/12 px-5 mx-auto text-center flex flex-col items-center justify-center"
-          >
-            <div class="w-16 rounded-full overflow-hidden my-10">
-              <img src="./images/image-jennie.jpg" alt="" />
-            </div>
-            <p class="font-body text-gray-600 text-sm font-semibold">
-              Incredible end result! Our sales increased over 400% when we
-              worked with Sunnyside. Highly recommended.
-            </p>
-            <div class="my-10">
-              <h5 class="font-heading">Jennie F.</h5>
-              <p class="font-body text-gray-500 text-sm">Business Owner</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-        <!-- Gallery -->
-        <div class="sm:flex">
-            <div class="flex">
-                <picture>
-                    <source media="(min-width: 638px)" srcset="./images/desktop/image-gallery-milkbottles.jpg" />
-                    <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="" />
-                </picture>
-                <picture>
-                    <source media="(min-width: 638px)" srcset="./images/desktop/image-gallery-orange.jpg" />
-                    <img src="./images/mobile/image-gallery-orange.jpg" alt="" />
-                </picture>
-            </div>
-            <div class="flex">
-                <picture>
-                    <source media="(min-width: 638px)" srcset="./images/desktop/image-gallery-cone.jpg" />
-                    <img src="./images/mobile/image-gallery-cone.jpg" alt="" />
-                </picture>
-                <picture>
-                    <source media="(min-width: 638px)" srcset="./images/desktop/image-gallery-sugarcubes.jpg" />
-                    <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="" />
-                </picture>
-            </div>
-        </div>
-
-        <!-- Footer -->
-        <div class="bg-dark_moderate_cyan bg-opacity-60 flex flex-col justify-center items-center gap-7 py-20">
-            <svg class="fill-dark_desaturated_cyan" width="124" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M5.857 18.708c1.638 0 2.995-.36 4.07-1.08 1.075-.721 1.613-1.769 1.613-3.144-.083-1.855-1.464-3.246-4.144-4.173l-1.44-.597c-.314-.1-.538-.198-.67-.298a.45.45 0 01-.198-.373c0-.414.273-.62.819-.62.678 0 1.182.347 1.513 1.043l3.698-1.044c-.893-2.22-2.614-3.329-5.162-3.329-1.522 0-2.788.398-3.797 1.193C1.15 7.08.645 8.116.645 9.39c0 .398.058.766.174 1.106.116.34.29.638.521.894.232.257.455.48.67.671.215.19.488.369.82.534.33.166.582.286.756.36.174.075.41.162.707.261l.422.15 1.49.546c.363.133.6.244.707.335a.449.449 0 01.16.36c0 .431-.404.647-1.215.647-1.191 0-1.903-.53-2.134-1.59L0 14.509c.463 2.8 2.416 4.2 5.857 4.2zm11.636 0c1.638 0 2.845-.63 3.623-1.888v1.615h5.112V5.366h-5.112v7.156c0 1.474-.505 2.21-1.514 2.21-1.026 0-1.539-.736-1.539-2.21V5.366h-5.112v7.653c0 3.793 1.514 5.69 4.542 5.69zm16.103-.273V11.28c0-1.475.504-2.212 1.513-2.212 1.026 0 1.54.737 1.54 2.212v7.155h5.111v-7.652c0-3.793-1.513-5.69-4.541-5.69-1.638 0-2.846.63-3.623 1.888V5.366h-5.113v13.069h5.113zm15.383 0V11.28c0-1.475.504-2.212 1.514-2.212 1.025 0 1.538.737 1.538 2.212v7.155h5.113v-7.652c0-3.793-1.514-5.69-4.542-5.69-1.638 0-2.846.63-3.623 1.888V5.366h-5.113v13.069h5.113zM64.958 24l8.289-18.634H67.91l-2.532 6.684-2.258-6.684h-5.584l5.435 11.802L59.944 24h5.014zm13.67-5.292c1.638 0 2.995-.36 4.07-1.08 1.076-.721 1.614-1.769 1.614-3.144-.083-1.855-1.465-3.246-4.145-4.173l-1.44-.597c-.314-.1-.537-.198-.67-.298a.45.45 0 01-.198-.373c0-.414.273-.62.819-.62.678 0 1.183.347 1.514 1.043l3.698-1.044c-.894-2.22-2.614-3.329-5.162-3.329-1.522 0-2.788.398-3.797 1.193-1.01.795-1.514 1.83-1.514 3.105 0 .398.058.766.173 1.106.116.34.29.638.522.894.231.257.455.48.67.671.215.19.488.369.819.534.33.166.583.286.757.36.173.075.41.162.707.261l.422.15 1.489.546c.364.133.6.244.707.335a.449.449 0 01.161.36c0 .431-.405.647-1.216.647-1.19 0-1.902-.53-2.134-1.59l-3.723.844c.464 2.8 2.416 4.2 5.857 4.2zm9.8-14.137c.91 0 1.613-.215 2.11-.646.495-.43.744-.977.744-1.64 0-.678-.24-1.23-.72-1.651C90.082.21 89.371 0 88.428 0c-.943 0-1.655.211-2.135.634-.48.422-.72.973-.72 1.652 0 .662.249 1.209.745 1.64.497.43 1.2.645 2.11.645zm2.556 13.864V5.366H85.87v13.069h5.113zm7.74.273c1.737 0 2.977-.63 3.722-1.888v1.615h5.112V.472h-5.112v6.534c-.745-1.275-1.985-1.913-3.723-1.913-1.753 0-3.214.642-4.38 1.926-1.166 1.283-1.75 2.91-1.75 4.882 0 1.97.584 3.598 1.75 4.882 1.166 1.283 2.627 1.925 4.38 1.925zm1.39-3.9c-.729 0-1.312-.274-1.75-.82-.439-.547-.658-1.243-.658-2.087 0-.845.215-1.54.645-2.087.447-.547 1.034-.82 1.762-.82s1.311.273 1.75.82c.438.546.657 1.242.657 2.087 0 .844-.219 1.54-.657 2.087-.439.546-1.022.82-1.75.82zm16.698 3.9c2.597 0 4.624-.754 6.08-2.26l-2.11-2.833c-1.042.845-2.217 1.267-3.524 1.267-.992 0-1.799-.224-2.42-.67-.62-.448-.93-.879-.93-1.293h9.604c.083-.298.124-.687.124-1.167 0-2.054-.674-3.677-2.022-4.87-1.349-1.193-3.073-1.789-5.175-1.789-2.25 0-4.028.671-5.335 2.013-1.307 1.341-1.961 2.956-1.961 4.844 0 1.938.69 3.549 2.072 4.833 1.382 1.283 3.247 1.925 5.597 1.925zm2.208-8.149h-5.112c.033-.613.298-1.08.794-1.404.496-.323 1.084-.484 1.762-.484.678 0 1.266.165 1.762.497.497.331.761.795.794 1.391z" fill-rule="nonzero"/></svg>
-            <div class="flex gap-10 text-dark_desaturated_cyan text-sm font-semibold">
-                <a class="hover:text-white" href=""><p>About</p></a>
-                <a class="hover:text-white" href=""><p>Services</p></a>
-                <a class="hover:text-white" href=""><p>Projects</p></a>
-            </div>
-            <div class="flex gap-5 mt-8">
-                <img src="./images/icon-facebook.svg" alt="" />
-                <img src="./images/icon-instagram.svg" alt="" />
-                <img src="./images/icon-twitter.svg" alt="" />
-                <img src="./images/icon-pinterest.svg" alt="" />
-            </div>
-
-        </div>
     </div>
 
     <script src="./index.js"></script>
