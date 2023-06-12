@@ -1156,6 +1156,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:bottom-8 {
+    bottom: 2rem;
+  }
+
   .lg\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;
