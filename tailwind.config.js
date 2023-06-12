@@ -18,6 +18,7 @@ module.exports = {
         "dark_grayish_blue" : "hsl(232, 10%, 55%)",
         "grayish_blue" : "hsl(210, 4%, 67%)",
         "white" : "hsl(0, 0%, 100%)",
+        "hero-blue" : "#3ebfff",
       },
       fontFamily: {
         "body" : ["Barlow", "sans-serif"],
